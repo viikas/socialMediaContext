@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #553055;
+}
+.App{
+  padding-bottom: 20px;
+  background: #4c2a4c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d
+}
+.navbar h1{
+  margin: 10px 0;
+}
+.navigations{
+  text-align: left;
+  background: #6d3d6d
+}
+
+.post-list{
+  margin: 20px;
+}
+.post-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.post-list li{
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.post-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.post-list .author{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.post-list .post{
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+textarea.post-input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+input[type='submit']{
+  background: #eee;
+  border: 0;
+  padding: 10px 20px;
+  display: block;
+  font-weight: bolder;
+  color: white; /* White text */
+  border: 1px solid #6d3d6d; /* Brownish border */
+  background-color: #4c2a4c; /* Brown background */ 
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+.posts-buttons button {
+  background-color: #4c2a4c; /* Brown background */
+  border: 1px solid #6d3d6d; /* Brownish border */
+  color: white; /* White text */
+  padding: 5px 15px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.posts-buttons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.posts-buttons button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.posts-buttons button:hover {
+  background-color: #3e8e41;
+}
+
+.history-list{
+  /* margin: 20px; */
+  list-style-type: none;
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 15px;
+  cursor: pointer;
+  margin: 10px 0;
+}
